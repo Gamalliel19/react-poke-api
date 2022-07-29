@@ -19,7 +19,7 @@ export default function Card({ name, url }) {
   if (loading) return <h1>Loading...</h1>;
 
   return (
-    <Cards>
+    <Cards href={`/${name}`}>
       <CardImage src={detail.data.sprites.front_default} alt={name} />
       <h3>{name}</h3>
     </Cards>

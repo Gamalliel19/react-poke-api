@@ -1,5 +1,4 @@
 import ListCard from './components/ListCard';
-import PokeDetail from './components/PokeDetail';
 import { Body, Title, Container } from './styled-components';
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
     <Body>
       <Container>
         <Title>Pokedex!</Title>
-        <PokeDetail />
         <ListCard />
       </Container>
     </Body>
